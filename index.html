@@ -1,1 +1,254 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conner Delahanty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#learning" onclick="toggleMenu();">Learning</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Conner Delahanty</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Banner -->
+            <section class="full banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="imgs/conner.jpg">
+                    </div>
+                    <h3>Conner Delahanty</h3>
+                    <p>Software Engineer</p>
+                    <a href="./files/resume.pdf" class="btn">My Resumé</a>
+                    <ul class="socialMedia">
+                        <li class="tooltip"><a target="_blank" href="https://www.linkedin.com/in/conner-d-83a192bb/"><i
+                                    class="fa fa-linkedin" aria-hidden="true"><span
+                                        class="tooltiptext">LinkedIn</span></i></a></li>
+                        <li class="tooltip"><a target="_blank" href="https://twitter.com/cldelahan"><i
+                                    class="fa fa-twitter" aria-hidden="true"><span
+                                        class="tooltiptext">Twitter</span></i></a></li>
+                        <li class="tooltip"><a target="_blank" href="https://github.com/cldelahan"><i
+                                    class="fa fa-github" aria-hidden="true"><span
+                                        class="tooltiptext">GitHub</span></i></a></li>
+                        <li class="tooltip"><a target="_blank"
+                                href="https://www.running2win.com/community/public-log.asp?m=cldelahan&k=7657"><i
+                                    class="fa fa-male" aria-hidden="true"><span
+                                        class="tooltiptext">Running2Win</span></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- About -->
+            <section class="full about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <p>You can learn enough about me from pretty much any of the links above. But since you
+                            came to my personal website, you deserve the inside scoop. <br><br>
+                            My name is Conner.
+                            <!-- originally from rural Ohio, which gives me an uncanny ability to play skill games such as
+                            cornhole, and an appreciation for nature and space. -->
+                            Originally from rural Ohio (my hometown census is 2,600 people), I now live in downtown
+                            Baltimore, MD. Don't get me wrong, I can appreciate corn and fields with the best of 'em,
+                            but living
+                            in a city, with countless restaruants, interesting and diverse people, and no shortage
+                            of things to do has been one of the most exciting changes in my life. <br><br>
+
+                            I moved here when I enrolled at Johns Hopkins for undergrad. When I visited Hopkins, it
+                            immediately called out to me as the place to be. I particularly loved
+                            their Cross-Country / Track & Field team, and could see myself performing well here
+                            academically and athletically. I still now can't resist the interminable
+                            urge to run most days, and I continue running and strength training to this day
+                            as a "hobby jogger". <br><br>
+
+                            I studied Computer Science and Applied Mathematics & Statistics, and eventully got my
+                            Masters at Hopkins in Computer Science during my 9th semester.
+                            My day job now is Computer Scientist. But I like to think of it a little
+                            more generally. I was brought in to a medical device start-up, CraniUS, with one
+                            instruction: build a performant software system for this medical device. And I pretty much
+                            have run wild with that instruction ever since.
+                            Building a system, building a product, building a team. Creating something where something
+                            was not is an incredible feeling. I hope you can see how much I resonate with this
+                            idea below.
+                            Most of my personal-time is building projects that, while may have little or no commercial
+                            value, were created by scratch by myself. And the satisfaction of their existance is fuel
+                            enough to build again. <br><br>
+
+                            But don't think tech is all I do. I love to read (check out my book page), write, and
+                            I have an uncanny ability in skill games (ping-pong, cornhole, chess, etc) that I often to
+                            break out. I frequently longboard (electric and non-electric), ski in the winters,
+                            urban explore year-round, and after recently getting a drone, have become obsessed with
+                            capturing unique pictures from 400 feet up. And of course, I love to run.<br><br>
+
+                            I don't treat this site as "promotional material" for myself. This site is where I can
+                            record and document the projects and activities I am up to, and if others are insterested,
+                            reach out and let's collaborate? <br><br>
+
+                            -Conner
+                        </p>
+                    </div>
+                    <div class="imgBx">
+                        <img src="imgs/conner-run.jpg">
+                    </div>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section class="full project adjust" id="projects">
+                <div class="title">
+                    <h2>Projects</h2>
+                    <p>Some of the most recent projects I have been working on. Reach out if interested in any of them!
+                    </p>
+                </div>
+                <div class="content">
+                    <!-- Algorithms Package -->
+                    <a href="https://github.com/cldelahan/algorithms">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/algorithm.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>Algorithms</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Down -->
+                    <a href="https://github.com/jhu-cs-uima-sp19/Down/">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/down.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>Down</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Camel Up Simulator -->
+                    <a href="https://github.com/cldelahan/camel-cup">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/camel-up.png">
+                            </div>
+                            <div class="textBx">
+                                <h3>Camel Up Simulator</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Pedestrian Distances -->
+                    <a href="files/extrapolationsofparkinsonslaw.pdf">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/pedestrian-circles.png">
+                            </div>
+                            <div class="textBx">
+                                <h3>Pedestrian Distances</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- BROQL -->
+                    <a href="https://github.com/cldelahan/fpse_project">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/broql.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>BROQL</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Nu+ -->
+                    <a href="https://github.com/cldelahan/nu_mais_mobile">
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="imgs/nubank.png">
+                            </div>
+                            <div class="textBx">
+                                <h3>Nu+</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!-- Books -->
+            <section class="learning adjust" id="learning">
+                <div class="title">
+                    <h2>Learning</h2>
+                    <p>My first personal website included a list of all the books,
+                        trainings, and courses I have ever taken. I like to think just
+                        reading the title is enough to spark the memory of the book itself.
+                        Please check-out below!
+                    </p>
+                </div>
+
+                <div class="content">
+                    <!-- Books -->
+                    <a href="books.html">
+                        <div class="learningBx">
+                            <div class="imgBx">
+                                <img src="imgs/book.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>Books</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Classes -->
+                    <a href="classes.html">
+                        <div class="learningBx">
+                            <div class="imgBx">
+                                <img src="imgs/classes.jpg">
+                            </div>
+                            <div class="textBx">
+                                <h3>Classes</h3>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>Copyright © 2023, Conner Delahanty. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let topbar = document.querySelector('.topbar');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+        toggle.onclick = function () {
+            toggle.classList.toggle('active');
+            topbar.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            navigation.classList.remove('active')
+            main.classList.remove('active')
+        }
+    </script>
+</body>
+
+</html>
